@@ -10,3 +10,25 @@ body, html {
     display: block;
     background: black;
   }
+
+  #toggleMode {
+    padding: 8px 16px;
+    background: #111;
+    color: #eee;
+    border: 1px solid #444;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+
+  #toggleMode:hover {
+    background: #222;
+    color: #7fffd4; /* Aquamarine highlight */
+    transform: scale(1.05);
+  }
+
+  #toggleMode:active {
+    transform: scale(0.95);
+  }
+
